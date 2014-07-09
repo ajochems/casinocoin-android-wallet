@@ -46,19 +46,19 @@ import android.text.style.RelativeSizeSpan;
 import android.text.style.StyleSpan;
 import android.text.style.TypefaceSpan;
 
-import com.google.bitcoin.core.CoinDefinition;
-import com.google.bitcoin.core.Address;
-import com.google.bitcoin.core.AddressFormatException;
-import com.google.bitcoin.core.DumpedPrivateKey;
-import com.google.bitcoin.core.ECKey;
-import com.google.bitcoin.core.ScriptException;
-import com.google.bitcoin.core.Sha256Hash;
-import com.google.bitcoin.core.Transaction;
-import com.google.bitcoin.core.TransactionInput;
-import com.google.bitcoin.core.TransactionOutput;
-import com.google.bitcoin.core.Wallet;
+import org.casinocoin.core.CoinDefinition;
+import org.casinocoin.core.Address;
+import org.casinocoin.core.AddressFormatException;
+import org.casinocoin.core.DumpedPrivateKey;
+import org.casinocoin.core.ECKey;
+import org.casinocoin.core.ScriptException;
+import org.casinocoin.core.Sha256Hash;
+import org.casinocoin.core.Transaction;
+import org.casinocoin.core.TransactionInput;
+import org.casinocoin.core.TransactionOutput;
+import org.casinocoin.core.Wallet;
 
-import com.google.bitcoin.script.Script;
+import org.casinocoin.script.Script;
 
 import de.schildbach.wallet.Constants;
 

@@ -31,17 +31,17 @@ import org.slf4j.LoggerFactory;
 import android.content.Context;
 import android.content.DialogInterface.OnClickListener;
 
-import com.google.bitcoin.core.Address;
-import com.google.bitcoin.core.AddressFormatException;
-import com.google.bitcoin.core.Base58;
-import com.google.bitcoin.core.DumpedPrivateKey;
-import com.google.bitcoin.core.ECKey;
-import com.google.bitcoin.core.ProtocolException;
-import com.google.bitcoin.core.Transaction;
-import com.google.bitcoin.protocols.payments.PaymentRequestException;
-import com.google.bitcoin.protocols.payments.PaymentRequestException.PkiVerificationException;
-import com.google.bitcoin.uri.BitcoinURI;
-import com.google.bitcoin.uri.BitcoinURIParseException;
+import org.casinocoin.core.Address;
+import org.casinocoin.core.AddressFormatException;
+import org.casinocoin.core.Base58;
+import org.casinocoin.core.DumpedPrivateKey;
+import org.casinocoin.core.ECKey;
+import org.casinocoin.core.ProtocolException;
+import org.casinocoin.core.Transaction;
+import org.casinocoin.protocols.payments.PaymentRequestException;
+import org.casinocoin.protocols.payments.PaymentRequestException.PkiVerificationException;
+import org.casinocoin.uri.BitcoinURI;
+import org.casinocoin.uri.BitcoinURIParseException;
 
 import de.schildbach.wallet.Constants;
 import de.schildbach.wallet.PaymentIntent;
@@ -49,8 +49,8 @@ import de.schildbach.wallet.util.Io;
 import de.schildbach.wallet.util.PaymentProtocol;
 import de.schildbach.wallet.util.Qr;
 
-import com.google.bitcoin.core.CoinDefinition;
-import hashengineering.digitalcoin.wallet.R;
+import org.casinocoin.core.CoinDefinition;
+import org.casinocoin.wallet.R;
 
 
 /**

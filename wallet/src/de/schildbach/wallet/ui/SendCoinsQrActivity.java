@@ -23,7 +23,7 @@ import android.content.DialogInterface.OnClickListener;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.google.bitcoin.core.Transaction;
+import org.casinocoin.core.Transaction;
 
 import de.schildbach.wallet.PaymentIntent;
 import de.schildbach.wallet.ui.InputParser.StringInputParser;

@@ -27,7 +27,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
-import hashengineering.digitalcoin.wallet.R;
+import org.casinocoin.wallet.R;
 
 /**
  * @author Andreas Schildbach

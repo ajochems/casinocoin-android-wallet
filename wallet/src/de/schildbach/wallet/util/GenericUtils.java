@@ -27,7 +27,7 @@ import javax.annotation.Nonnull;
 import android.view.View;
 import android.widget.TextView;
 
-import com.google.bitcoin.core.NetworkParameters;
+import org.casinocoin.core.NetworkParameters;
 
 import de.schildbach.wallet.Constants;
 

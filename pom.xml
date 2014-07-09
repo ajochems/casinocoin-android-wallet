@@ -70,7 +70,7 @@
 				<plugin>
 					<groupId>com.jayway.maven.plugins.android.generation2</groupId>
 					<artifactId>android-maven-plugin</artifactId>
-					<version>3.7.0</version>
+					<version>3.8.0</version>
 					<configuration>
 						<genDirectory>${basedir}/gen</genDirectory>
 					</configuration>
@@ -97,6 +97,9 @@
 	</build>
 
 	<properties>
+        <!-- absolute path to the Android SDK install as defined in the ANDROID_HOME environment variable -->
+        <android.sdk.path>C:/android-sdk/</android.sdk.path>
+        <android.sdk.platform>19</android.sdk.platform>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 

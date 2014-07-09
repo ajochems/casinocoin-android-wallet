@@ -24,17 +24,17 @@ import java.util.List;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
-import com.google.bitcoin.core.CoinDefinition;
+import org.casinocoin.core.CoinDefinition;
 import org.bitcoin.protocols.payments.Protos;
 
-import com.google.bitcoin.core.Address;
-import com.google.bitcoin.core.ScriptException;
-import com.google.bitcoin.core.Transaction;
-import com.google.bitcoin.protocols.payments.PaymentRequestException;
-import com.google.bitcoin.protocols.payments.PaymentSession;
-import com.google.bitcoin.protocols.payments.PaymentProtocol.PkiVerificationData;
-import com.google.bitcoin.script.Script;
-import com.google.bitcoin.script.ScriptBuilder;
+import org.casinocoin.core.Address;
+import org.casinocoin.core.ScriptException;
+import org.casinocoin.core.Transaction;
+import org.casinocoin.protocols.payments.PaymentRequestException;
+import org.casinocoin.protocols.payments.PaymentSession;
+import org.casinocoin.protocols.payments.PaymentProtocol.PkiVerificationData;
+import org.casinocoin.script.Script;
+import org.casinocoin.script.ScriptBuilder;
 import com.google.protobuf.ByteString;
 import com.google.protobuf.InvalidProtocolBufferException;
 import com.google.protobuf.UninitializedMessageException;

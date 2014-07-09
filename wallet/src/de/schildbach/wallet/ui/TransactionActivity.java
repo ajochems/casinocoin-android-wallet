@@ -25,11 +25,11 @@ import android.os.Build;
 import android.os.Bundle;
 import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.view.MenuItem;
-import com.google.bitcoin.core.*;
+import org.casinocoin.core.*;
 import de.schildbach.wallet.Constants;
 import de.schildbach.wallet.WalletApplication;
 import de.schildbach.wallet.util.Base43;
-import hashengineering.digitalcoin.wallet.R;
+import org.casinocoin.wallet.R;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

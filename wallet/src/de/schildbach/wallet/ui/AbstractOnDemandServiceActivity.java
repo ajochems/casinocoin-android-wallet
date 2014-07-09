@@ -19,9 +19,9 @@ package de.schildbach.wallet.ui;
 
 import javax.annotation.Nonnull;
 
-import com.google.bitcoin.core.Transaction;
-import com.google.bitcoin.core.VerificationException;
-import com.google.bitcoin.core.Wallet;
+import org.casinocoin.core.Transaction;
+import org.casinocoin.core.VerificationException;
+import org.casinocoin.core.Wallet;
 
 import de.schildbach.wallet.WalletApplication;
 

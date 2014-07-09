@@ -25,10 +25,10 @@ import javax.annotation.Nullable;
 import android.os.Handler;
 import android.os.Looper;
 
-import com.google.bitcoin.core.InsufficientMoneyException;
-import com.google.bitcoin.core.Transaction;
-import com.google.bitcoin.core.Wallet;
-import com.google.bitcoin.core.Wallet.SendRequest;
+import org.casinocoin.core.InsufficientMoneyException;
+import org.casinocoin.core.Transaction;
+import org.casinocoin.core.Wallet;
+import org.casinocoin.core.Wallet.SendRequest;
 
 /**
  * @author Andreas Schildbach

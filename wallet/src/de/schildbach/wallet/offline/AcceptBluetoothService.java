@@ -32,9 +32,9 @@ import android.os.PowerManager;
 import android.os.PowerManager.WakeLock;
 import android.text.format.DateUtils;
 
-import com.google.bitcoin.core.Transaction;
-import com.google.bitcoin.core.VerificationException;
-import com.google.bitcoin.core.Wallet;
+import org.casinocoin.core.Transaction;
+import org.casinocoin.core.VerificationException;
+import org.casinocoin.core.Wallet;
 
 import de.schildbach.wallet.WalletApplication;
 

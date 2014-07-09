@@ -43,7 +43,7 @@ import de.schildbach.wallet.Configuration;
 import de.schildbach.wallet.Constants;
 import de.schildbach.wallet.WalletApplication;
 import de.schildbach.wallet.util.CrashReporter;
-import hashengineering.digitalcoin.wallet.R;
+import org.casinocoin.wallet.R;
 
 /**
  * @author Andreas Schildbach

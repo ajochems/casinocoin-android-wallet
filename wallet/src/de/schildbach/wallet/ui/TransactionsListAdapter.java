@@ -39,19 +39,19 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.google.bitcoin.core.Address;
-import com.google.bitcoin.core.Transaction;
-import com.google.bitcoin.core.Transaction.Purpose;
-import com.google.bitcoin.core.TransactionConfidence;
-import com.google.bitcoin.core.TransactionConfidence.ConfidenceType;
-import com.google.bitcoin.core.Wallet;
-import com.google.bitcoin.wallet.DefaultCoinSelector;
+import org.casinocoin.core.Address;
+import org.casinocoin.core.Transaction;
+import org.casinocoin.core.Transaction.Purpose;
+import org.casinocoin.core.TransactionConfidence;
+import org.casinocoin.core.TransactionConfidence.ConfidenceType;
+import org.casinocoin.core.Wallet;
+import org.casinocoin.wallet.DefaultCoinSelector;
 
 import de.schildbach.wallet.AddressBookProvider;
 import de.schildbach.wallet.Constants;
 import de.schildbach.wallet.util.CircularProgressView;
 import de.schildbach.wallet.util.WalletUtils;
-import hashengineering.digitalcoin.wallet.R;
+import org.casinocoin.wallet.R;
 
 /**
  * @author Andreas Schildbach

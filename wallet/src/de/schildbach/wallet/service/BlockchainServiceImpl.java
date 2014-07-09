@@ -35,7 +35,7 @@ import javax.annotation.CheckForNull;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
-import com.google.bitcoin.core.*;
+import org.casinocoin.core.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -60,15 +60,15 @@ import android.os.PowerManager.WakeLock;
 import android.support.v4.app.NotificationCompat;
 import android.text.format.DateUtils;
 
-import com.google.bitcoin.core.TransactionConfidence.ConfidenceType;
-import com.google.bitcoin.core.Wallet.BalanceType;
-import com.google.bitcoin.net.discovery.DnsDiscovery;
-import com.google.bitcoin.net.discovery.PeerDiscovery;
-import com.google.bitcoin.net.discovery.PeerDiscoveryException;
-import com.google.bitcoin.store.BlockStore;
-import com.google.bitcoin.store.BlockStoreException;
-import com.google.bitcoin.store.SPVBlockStore;
-import com.google.bitcoin.utils.Threading;
+import org.casinocoin.core.TransactionConfidence.ConfidenceType;
+import org.casinocoin.core.Wallet.BalanceType;
+import org.casinocoin.net.discovery.DnsDiscovery;
+import org.casinocoin.net.discovery.PeerDiscovery;
+import org.casinocoin.net.discovery.PeerDiscoveryException;
+import org.casinocoin.store.BlockStore;
+import org.casinocoin.store.BlockStoreException;
+import org.casinocoin.store.SPVBlockStore;
+import org.casinocoin.utils.Threading;
 
 import de.schildbach.wallet.AddressBookProvider;
 import de.schildbach.wallet.Configuration;
@@ -79,10 +79,10 @@ import de.schildbach.wallet.ui.WalletActivity;
 import de.schildbach.wallet.util.CrashReporter;
 import de.schildbach.wallet.util.GenericUtils;
 import de.schildbach.wallet.util.WalletUtils;
-import hashengineering.digitalcoin.wallet.R;
+import org.casinocoin.wallet.R;
 import de.schildbach.wallet.util.ThrottlingWalletChangeListener;
 import org.litecoin.LitecoinPeerDBDiscovery;
-import com.google.bitcoin.net.discovery.IrcDiscovery;
+import org.casinocoin.net.discovery.IrcDiscovery;
 
 
 /**

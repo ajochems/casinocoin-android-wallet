@@ -75,18 +75,18 @@ import com.actionbarsherlock.view.ActionMode;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuInflater;
 import com.actionbarsherlock.view.MenuItem;
-import com.google.bitcoin.core.TransactionConfidence.ConfidenceType;
-import com.google.bitcoin.core.Wallet.BalanceType;
-import com.google.bitcoin.core.Wallet.SendRequest;
+import org.casinocoin.core.TransactionConfidence.ConfidenceType;
+import org.casinocoin.core.Wallet.BalanceType;
+import org.casinocoin.core.Wallet.SendRequest;
 
-import com.google.bitcoin.core.Transaction;
-import com.google.bitcoin.core.TransactionConfidence;
-import com.google.bitcoin.core.Wallet;
-import com.google.bitcoin.core.CoinDefinition;
-import com.google.bitcoin.core.Address;
-import com.google.bitcoin.core.AddressFormatException;
-import com.google.bitcoin.core.Sha256Hash;
-import com.google.bitcoin.core.NetworkParameters;
+import org.casinocoin.core.Transaction;
+import org.casinocoin.core.TransactionConfidence;
+import org.casinocoin.core.Wallet;
+import org.casinocoin.core.CoinDefinition;
+import org.casinocoin.core.Address;
+import org.casinocoin.core.AddressFormatException;
+import org.casinocoin.core.Sha256Hash;
+import org.casinocoin.core.NetworkParameters;
 
 import de.schildbach.wallet.AddressBookProvider;
 import de.schildbach.wallet.Configuration;
@@ -106,7 +106,7 @@ import de.schildbach.wallet.util.GenericUtils;
 import de.schildbach.wallet.util.Nfc;
 import de.schildbach.wallet.util.PaymentProtocol;
 import de.schildbach.wallet.util.WalletUtils;
-import hashengineering.digitalcoin.wallet.R;
+import org.casinocoin.wallet.R;
 
 /**
  * @author Andreas Schildbach

@@ -21,9 +21,9 @@ import java.util.List;
 
 import javax.annotation.CheckForNull;
 
-import com.google.bitcoin.core.Peer;
-import com.google.bitcoin.core.StoredBlock;
-import hashengineering.digitalcoin.wallet.R;
+import org.casinocoin.core.Peer;
+import org.casinocoin.core.StoredBlock;
+import org.casinocoin.wallet.R;
 
 /**
  * @author Andreas Schildbach

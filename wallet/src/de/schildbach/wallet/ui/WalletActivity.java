@@ -42,7 +42,7 @@ import java.util.TimeZone;
 import javax.annotation.Nonnull;
 
 
-//import com.google.bitcoin.core.*;
+//import org.casinocoin.core.*;
 //import org.slf4j.Logger;
 //import org.slf4j.LoggerFactory;
 
@@ -73,10 +73,10 @@ import android.widget.TextView;
 
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuItem;
-import com.google.bitcoin.core.AddressFormatException;
-import com.google.bitcoin.core.ECKey;
-import com.google.bitcoin.core.Transaction;
-import com.google.bitcoin.core.Wallet;
+import org.casinocoin.core.AddressFormatException;
+import org.casinocoin.core.ECKey;
+import org.casinocoin.core.Transaction;
+import org.casinocoin.core.Wallet;
 
 import de.schildbach.wallet.Configuration;
 import de.schildbach.wallet.Constants;
@@ -90,8 +90,8 @@ import de.schildbach.wallet.util.HttpGetThread;
 import de.schildbach.wallet.util.Iso8601Format;
 import de.schildbach.wallet.util.Nfc;
 import de.schildbach.wallet.util.WalletUtils;
-import com.google.bitcoin.core.CoinDefinition;
-import hashengineering.digitalcoin.wallet.R;
+import org.casinocoin.core.CoinDefinition;
+import org.casinocoin.wallet.R;
 
 
 /**

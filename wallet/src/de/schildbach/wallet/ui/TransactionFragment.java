@@ -30,12 +30,12 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 import com.actionbarsherlock.app.SherlockFragment;
-import com.google.bitcoin.core.*;
+import org.casinocoin.core.*;
 import de.schildbach.wallet.AddressBookProvider;
 import de.schildbach.wallet.Constants;
 import de.schildbach.wallet.WalletApplication;
 import de.schildbach.wallet.util.*;
-import hashengineering.digitalcoin.wallet.R;
+import org.casinocoin.wallet.R;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

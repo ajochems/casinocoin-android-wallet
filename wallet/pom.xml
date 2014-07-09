@@ -4,11 +4,11 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>wallet</artifactId>
+	<artifactId>csc-wallet</artifactId>
 	<packaging>apk</packaging>
 
-	<version>0.1.5</version>
-	<name>digitalcoin Wallet</name>
+	<version>0.9.0</version>
+	<name>Casinocoin Android Wallet</name>
 
 
 	<parent>
@@ -59,12 +59,11 @@
 			<type>apklib</type>
 		</dependency>
 
-		<!-- com.google.bitcoin.* -->
+		<!-- org.casinocoin.* -->
 		<dependency>
-			<groupId>com.google</groupId>
-
-			<artifactId>digitalcoinj</artifactId>
-			<version>0.12-SNAPSHOT</version>
+			<groupId>org.casinocoin</groupId>
+			<artifactId>casinocoinj</artifactId>
+			<version>0.12-BETA</version>
 
 		</dependency>
 
@@ -222,3 +221,4 @@
 	</reporting>
 
 </project>
+ 

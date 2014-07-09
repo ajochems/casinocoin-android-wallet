@@ -43,13 +43,13 @@ import com.actionbarsherlock.view.ActionMode;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuInflater;
 import com.actionbarsherlock.view.MenuItem;
-import com.google.bitcoin.core.AbstractWalletEventListener;
-import com.google.bitcoin.core.Address;
-import com.google.bitcoin.core.ECKey;
-import com.google.bitcoin.core.Wallet;
-import com.google.bitcoin.core.WalletEventListener;
-import com.google.bitcoin.uri.BitcoinURI;
-import com.google.bitcoin.utils.Threading;
+import org.casinocoin.core.AbstractWalletEventListener;
+import org.casinocoin.core.Address;
+import org.casinocoin.core.ECKey;
+import org.casinocoin.core.Wallet;
+import org.casinocoin.core.WalletEventListener;
+import org.casinocoin.uri.BitcoinURI;
+import org.casinocoin.utils.Threading;
 
 import de.schildbach.wallet.AddressBookProvider;
 import de.schildbach.wallet.Configuration;
@@ -59,7 +59,7 @@ import de.schildbach.wallet.util.BitmapFragment;
 import de.schildbach.wallet.util.Qr;
 import de.schildbach.wallet.util.WalletUtils;
 
-import hashengineering.digitalcoin.wallet.R;
+import org.casinocoin.wallet.R;
 
 
 /**

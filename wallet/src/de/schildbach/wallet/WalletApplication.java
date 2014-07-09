@@ -53,23 +53,23 @@ import ch.qos.logback.classic.spi.ILoggingEvent;
 import ch.qos.logback.core.rolling.RollingFileAppender;
 import ch.qos.logback.core.rolling.TimeBasedRollingPolicy;
 
-import com.google.bitcoin.core.Address;
-import com.google.bitcoin.core.ECKey;
-import com.google.bitcoin.core.Transaction;
-import com.google.bitcoin.core.VersionMessage;
-import com.google.bitcoin.core.Wallet;
-import com.google.bitcoin.core.CoinDefinition;
-import com.google.bitcoin.store.UnreadableWalletException;
-import com.google.bitcoin.store.WalletProtobufSerializer;
-import com.google.bitcoin.utils.Threading;
-import com.google.bitcoin.wallet.WalletFiles;
+import org.casinocoin.core.Address;
+import org.casinocoin.core.ECKey;
+import org.casinocoin.core.Transaction;
+import org.casinocoin.core.VersionMessage;
+import org.casinocoin.core.Wallet;
+import org.casinocoin.core.CoinDefinition;
+import org.casinocoin.store.UnreadableWalletException;
+import org.casinocoin.store.WalletProtobufSerializer;
+import org.casinocoin.utils.Threading;
+import org.casinocoin.wallet.WalletFiles;
 
 import de.schildbach.wallet.service.BlockchainService;
 import de.schildbach.wallet.service.BlockchainServiceImpl;
 import de.schildbach.wallet.util.CrashReporter;
 import de.schildbach.wallet.util.Io;
 import de.schildbach.wallet.util.LinuxSecureRandom;
-import hashengineering.digitalcoin.wallet.R;
+import org.casinocoin.wallet.R;
 
 /**
  * @author Andreas Schildbach

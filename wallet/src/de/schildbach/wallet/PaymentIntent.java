@@ -27,14 +27,14 @@ import javax.annotation.Nullable;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import com.google.bitcoin.core.Address;
-import com.google.bitcoin.core.AddressFormatException;
-import com.google.bitcoin.core.Transaction;
-import com.google.bitcoin.core.Wallet.SendRequest;
-import com.google.bitcoin.core.WrongNetworkException;
-import com.google.bitcoin.script.Script;
-import com.google.bitcoin.script.ScriptBuilder;
-import com.google.bitcoin.uri.BitcoinURI;
+import org.casinocoin.core.Address;
+import org.casinocoin.core.AddressFormatException;
+import org.casinocoin.core.Transaction;
+import org.casinocoin.core.Wallet.SendRequest;
+import org.casinocoin.core.WrongNetworkException;
+import org.casinocoin.script.Script;
+import org.casinocoin.script.ScriptBuilder;
+import org.casinocoin.uri.BitcoinURI;
 
 import de.schildbach.wallet.util.Bluetooth;
 import de.schildbach.wallet.util.GenericUtils;

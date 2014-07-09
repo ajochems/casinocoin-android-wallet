@@ -23,7 +23,7 @@ import java.math.BigInteger;
 
 import org.junit.Test;
 
-import com.google.bitcoin.core.NetworkParameters;
+import org.casinocoin.core.NetworkParameters;
 
 /**
  * @author Andreas Schildbach

@@ -28,9 +28,9 @@ import org.slf4j.LoggerFactory;
 import android.content.Context;
 import android.support.v4.content.AsyncTaskLoader;
 
-import com.google.bitcoin.core.Wallet;
-import com.google.bitcoin.core.Wallet.BalanceType;
-import com.google.bitcoin.utils.Threading;
+import org.casinocoin.core.Wallet;
+import org.casinocoin.core.Wallet.BalanceType;
+import org.casinocoin.utils.Threading;
 
 
 import de.schildbach.wallet.util.ThrottlingWalletChangeListener;

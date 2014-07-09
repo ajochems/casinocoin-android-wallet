@@ -24,11 +24,11 @@ import java.util.concurrent.atomic.AtomicLong;
 
 import android.os.Handler;
 
-import com.google.bitcoin.core.ECKey;
-import com.google.bitcoin.core.Transaction;
-import com.google.bitcoin.core.Wallet;
-import com.google.bitcoin.core.WalletEventListener;
-import com.google.bitcoin.script.Script;
+import org.casinocoin.core.ECKey;
+import org.casinocoin.core.Transaction;
+import org.casinocoin.core.Wallet;
+import org.casinocoin.core.WalletEventListener;
+import org.casinocoin.script.Script;
 
 /**
  * @author Andreas Schildbach

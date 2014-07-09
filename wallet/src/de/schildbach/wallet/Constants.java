@@ -24,11 +24,11 @@ import android.os.Build;
 import android.os.Environment;
 import android.text.format.DateUtils;
 
-import com.google.bitcoin.core.NetworkParameters;
-import com.google.bitcoin.params.MainNetParams;
-import com.google.bitcoin.params.TestNet3Params;
-import com.google.bitcoin.core.CoinDefinition;
-import hashengineering.digitalcoin.wallet.R;
+import org.casinocoin.core.NetworkParameters;
+import org.casinocoin.params.MainNetParams;
+import org.casinocoin.params.TestNet3Params;
+import org.casinocoin.core.CoinDefinition;
+import org.casinocoin.wallet.R;
 
 /**
  * @author Andreas Schildbach
@@ -68,7 +68,7 @@ public class Constants
 	public static final String MIMETYPE_BACKUP_PRIVATE_KEYS = "x-"+CoinDefinition.coinName.toLowerCase()+"/private-keys";
 
 
-	public static final int MAX_NUM_CONFIRMATIONS = 7;
+	public static final int MAX_NUM_CONFIRMATIONS = 6;
 	public static final String USER_AGENT = CoinDefinition.coinName +" Wallet";
 	public static final String DEFAULT_EXCHANGE_CURRENCY = "USD";
 	public static final int WALLET_OPERATION_STACK_SIZE = 256 * 1024;
@@ -95,7 +95,7 @@ public class Constants
 	public static final int LOCAL_PRECISION = 8;        //altcoins need more digits in BTC
     //TODO: What about these two things?
 	public static final String DONATION_ADDRESS = CoinDefinition.DONATION_ADDRESS;
-	public static final String REPORT_EMAIL = "hashengineeringsolutions@gmail.com";
+	public static final String REPORT_EMAIL = "andre@jochems.com";
 
 	public static final int UBTC_MAX_PRECISION = 2;
 
@@ -107,17 +107,17 @@ public class Constants
 
     public static final String FORKED_FROM_SOURCE = "based on bitcoin-wallet 3.46\n";
     public static final String FORKED_FROM_SOURCE_BITCOINJ = "based on bitcoinj 0.12\n";
-	public static final String SOURCE_URL = "https://github.com/HashEngineering/" + CoinDefinition.coinName.toLowerCase() + "-wallet";
-	public static final String BINARY_URL = "https://github.com/HashEngineering/"+ CoinDefinition.coinName.toLowerCase() +"-wallet/releases";
-	public static final String CREDITS_BITCOINJ_URL = "https://github.com/HashEngineering/" + CoinDefinition.coinName.toLowerCase() + "j";
+	public static final String SOURCE_URL = "https://github.com/ajochems/casinocoin-android-wallet";
+	public static final String BINARY_URL = "https://github.com/ajochems/casinocoin-android-wallet/releases";
+	public static final String CREDITS_BITCOINJ_URL = "https://github.com/ajochems/casinocoinj";
 	public static final String CREDITS_ZXING_URL = "http://code.google.com/p/zxing/";
-    public static final String CREDITS_WEBSITE_URL = "http://digitalcoin.co/";
-    public static final String CREDITS_FORUM_URL = "http://digitalcoin.co/forums/";
+    public static final String CREDITS_WEBSITE_URL = "http://www.casinocoin.org/";
+    public static final String CREDITS_FORUM_URL = "http://www.casinocoin.org/forums/";
 
-	public static final String CREDITS_ICON_URL = "https://bitcointalk.org/index.php?action=profile;u=2062";
+	public static final String CREDITS_ICON_URL = "https://bitcointalk.org/index.php?topic=616792.0";
 
-	public static final String AUTHOR_TWITTER_URL = "https://twitter.com/#!/HashEngineering";
-	public static final String AUTHOR_GOOGLEPLUS_URL = "https://profiles.google.com/HashEngineering";
+	public static final String AUTHOR_TWITTER_URL = "https://twitter.com/#!/andrejochems";
+	public static final String AUTHOR_GOOGLEPLUS_URL = "https://profiles.google.com/andrejochems";
 
 	public static final String COMMUNITY_GOOGLEPLUS_URL = "https://plus.google.com/communities/105515929887248493912";
 
