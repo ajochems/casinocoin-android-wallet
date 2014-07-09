@@ -2,11 +2,11 @@
 <resources>
 
 	<string-array name="preferences_precision_labels">
-		<item>DGC, 8位數</item>
-		<item>DGC, 6位數</item>
-		<item>DGC, 4位數</item>
-		<item>mDGC, 2位數</item>
-		<item>µDGC, 0位數</item>
+		<item>CSC, 8位數</item>
+		<item>CSC, 6位數</item>
+		<item>CSC, 4位數</item>
+		<item>mCSC, 2位數</item>
+		<item>µCSC, 0位數</item>
 	</string-array>
 
 </resources>

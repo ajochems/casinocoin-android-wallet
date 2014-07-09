@@ -4,11 +4,11 @@
 	<string name="help_wallet">
 <![CDATA[
 		<p>
-			La partie supérieure gauche de l\'écran affiche votre adresse Bitcoin choisie et que d\'autres personnes doivent connaître pour vous envoyer des bitcoins.
+			La partie supérieure gauche de l\'écran affiche votre adresse Casinocoin choisie et que d\'autres personnes doivent connaître pour vous envoyer des bitcoins.
 			Toquer pour changer cette adresse.
 		</p>
 		<p>
-			Le code QR à droite contient votre adresse Bitcoin et peut être numérisée par un tiers.
+			Le code QR à droite contient votre adresse Casinocoin et peut être numérisée par un tiers.
 			Toquer le code QR pour l\'agrandir.
 		</p>
 		<p>
@@ -31,7 +31,7 @@
 	<string name="help_request_coins">
 <![CDATA[
 		<p>
-			En utilisant cette zone de dialogue vous pouvez demander des pièces à une autre personne (qui devrait déjà avoir installé le Bitcoin Wallet).
+			En utilisant cette zone de dialogue vous pouvez demander des pièces à une autre personne (qui devrait déjà avoir installé le Casinocoin Wallet).
 		</p>
 		<p>
 			Vous pouvez d\'abord saisir un montant de bitcoins à demander.
@@ -53,7 +53,7 @@
 			Vous êtes arrivé ici depuis l\'écran principal ou en cliquant sur une URL bitcoin dans votre navigateur.
 		</p>
 		<p>
-			D\'abord, saisir l\'adresse Bitcoin de destination.
+			D\'abord, saisir l\'adresse Casinocoin de destination.
 			L\'adresse sera complétée automatiquement pour les adresses enregistrées dans votre carnet.
 			Vous pouvez aussi numériser des codes QR avec des adresses bitcoin ou des demandes de bitcoins en pressant le bouton QR dans la barre des actions.
 		</p>
@@ -66,7 +66,7 @@
 		</p>
 		<p>
 			Vous pouvez saisir un paiement hors-ligne.
-			Il sera envoyé au prochain lancement du Bitcoin Wallet.
+			Il sera envoyé au prochain lancement du Casinocoin Wallet.
 			Pour le traitement le plus rapide possible de votre paiement, assurez vous d\'être bien connecté (c.-à-d. sur un WLAN).
 		</p>
 		<p>
@@ -91,7 +91,7 @@
 			Garder votre sauvegarde en sûreté et souvenez-vous de votre mot de passe.
 		</p>
 		<p>
-			<b>Avant de désinstaller Bitcoin Wallet</b> (ou d\'effacer les données de l\'appli/effacer les données de votre appareil), <b>transférer vos bitcoins vers un autre portefeuille</b>.
+			<b>Avant de désinstaller Casinocoin Wallet</b> (ou d\'effacer les données de l\'appli/effacer les données de votre appareil), <b>transférer vos bitcoins vers un autre portefeuille</b>.
 			Les bitcoins restant seront perdus.
 		</p>
 		<p>

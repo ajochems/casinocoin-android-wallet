@@ -5,8 +5,8 @@
 	package="org.casinocoin.wallet"
 	android:installLocation="internalOnly"
 
-	android:versionCode="10012"
-	android:versionName="0.12" >
+	android:versionCode="10090"
+	android:versionName="0.9.0" >
 
 
 	<uses-sdk

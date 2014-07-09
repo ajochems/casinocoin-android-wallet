@@ -16,6 +16,7 @@
 			android:id="@+id/wallet_balance_btc"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
+            android:textColor="@color/fg_white"
 			android:textSize="@dimen/font_size_huge" />
 
 		<FrameLayout
@@ -30,6 +31,7 @@
 				android:id="@+id/wallet_balance_local"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
+                android:textColor="@color/fg_white"
 				android:textSize="@dimen/font_size_small" />
 		</FrameLayout>
 	</LinearLayout>
@@ -41,7 +43,7 @@
 		android:layout_gravity="center"
 		android:layout_marginLeft="@dimen/list_entry_padding_horizontal_lax"
 		android:layout_marginRight="@dimen/list_entry_padding_horizontal_lax"
-		android:textColor="@color/fg_less_significant"
+		android:textColor="@color/fg_white"
 		android:textSize="@dimen/font_size_small"
 		android:visibility="gone" />
 
