@@ -1,4 +1,4 @@
-Welcome to _digitalcoin Wallet_, a standalone digitalcoin payment app for your Android device!
+Welcome to _Casinocoin Wallet_, a standalone casinocoin payment app for your Android device!
 
 This project contains several sub-projects:
 
