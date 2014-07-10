@@ -95,7 +95,7 @@ public class Constants
 	public static final int LOCAL_PRECISION = 8;        //altcoins need more digits in BTC
     //TODO: What about these two things?
 	public static final String DONATION_ADDRESS = CoinDefinition.DONATION_ADDRESS;
-	public static final String REPORT_EMAIL = "andre@jochems.com";
+	public static final String REPORT_EMAIL = "andre.jchems@gmail.com";
 
 	public static final int UBTC_MAX_PRECISION = 2;
 

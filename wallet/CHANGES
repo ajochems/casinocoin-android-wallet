@@ -1,5 +1,10 @@
 Casinocoin Wallet
 -----------------
+v0.9.1
+* Some color changes
+* Fixed some translations
+* Updated checkpoints file upto block 535000 to speed up initial block chain loading
+
 v0.9.0
 * forked from Digitalcoin
 * added casinocoin checkpoints file

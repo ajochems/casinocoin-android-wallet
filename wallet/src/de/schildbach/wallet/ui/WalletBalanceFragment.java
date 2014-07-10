@@ -232,7 +232,7 @@ public final class WalletBalanceFragment extends Fragment
 						viewBalanceLocalFrame.setVisibility(View.VISIBLE);
 						viewBalanceLocal.setPrefix(Constants.PREFIX_ALMOST_EQUAL_TO + exchangeRate.currencyCode);
 						viewBalanceLocal.setAmount(localValue);
-						viewBalanceLocal.setTextColor(getResources().getColor(R.color.fg_less_significant));
+						viewBalanceLocal.setTextColor(getResources().getColor(R.color.fg_gold));
 					}
 					else
 					{
