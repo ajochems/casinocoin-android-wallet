@@ -43,7 +43,7 @@
 				android:layout_height="0px"
 				android:layout_gravity="top"
 				android:layout_weight="1"
-				android:textSize="@dimen/font_size_normal" />
+				android:textSize="@dimen/font_size_normal" android:textColor="@color/fg_white"/>
 		</LinearLayout>
 
 		<FrameLayout

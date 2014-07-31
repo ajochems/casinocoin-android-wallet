@@ -7,7 +7,7 @@
 	<artifactId>csc-wallet</artifactId>
 	<packaging>apk</packaging>
 
-	<version>0.9.1</version>
+	<version>1.0.0</version>
 	<name>Casinocoin Android Wallet</name>
 
 
@@ -63,7 +63,7 @@
 		<dependency>
 			<groupId>org.casinocoin</groupId>
 			<artifactId>casinocoinj</artifactId>
-			<version>0.12-BETA</version>
+			<version>0.14-SNAPSHOT</version>
 
 		</dependency>
 
@@ -204,21 +204,6 @@
 			</plugin>
 		</plugins>
 	</build>
-
-	<!-- to generate reports, run: mvn clean install site -->
-	<!-- then browse to: target/site/index.html -->
-	<reporting>
-		<plugins>
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>findbugs-maven-plugin</artifactId>
-				<version>2.5.2</version>
-				<configuration>
-					<onlyAnalyze>de.schildbach.wallet.-</onlyAnalyze>
-				</configuration>
-			</plugin>
-		</plugins>
-	</reporting>
 
 </project>
  
